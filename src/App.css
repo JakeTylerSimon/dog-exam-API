@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.dogButton {
+  padding: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.dogButton:hover {
+  background-color: aqua;
+}
+
+.plus {
+  width: 40px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
